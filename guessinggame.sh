@@ -1,6 +1,7 @@
 #!/bin/bash
 
-count=$(ls -ap | egrep -v "/$" | wc -l | xargs)
+count=$(ls -a | wc -l | xargs)
+count=$count-2
 not_guessed=true
 
 function try_guess {
