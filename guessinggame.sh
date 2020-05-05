@@ -1,4 +1,6 @@
-count=$(ls | wc -l | xargs)
+#!/bin/bash
+
+count=$(ls -ap | egrep -v "/$" | wc -l | xargs)
 not_guessed=true
 
 function try_guess {
