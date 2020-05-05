@@ -1,5 +1,5 @@
 # Guessing game
 
-Make run: Tue May  5 11:39:34 MSK 2020
+Make run: Tue May  5 12:18:21 MSK 2020
 
-Lines of code: 29
+Lines of code: 28

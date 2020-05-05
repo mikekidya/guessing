@@ -1,7 +1,6 @@
 #!/bin/bash
 
-count=$(ls -a | wc -l | xargs)
-count=$count-2
+count=$(ls -A | wc -l | xargs)
 not_guessed=true
 
 function try_guess {
